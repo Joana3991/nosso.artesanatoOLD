@@ -1,7 +1,7 @@
 <h1>Produtos show</h1>
 
 <div class="produto">
-  <%= image_tag @produto.url_foto, alt: "foto do produto", width: 300 %>
+  <%= cl_image_tag @produto.foto.key, height: 300, width: 300, crop: :fill %>
   <p><%= @produto.nome %></p>
   <p><%= @produto.tamanho %></p>
 </div>
