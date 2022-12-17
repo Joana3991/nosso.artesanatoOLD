@@ -75,3 +75,4 @@ gem "simple_form", github: "heartcombo/simple_form"
 gem "dotenv-rails", groups: [:development, :test]
 gem "cloudinary"
 gem "font-awesome-sass", "~> 6.1"
+gem "autoprefixer-rails"
