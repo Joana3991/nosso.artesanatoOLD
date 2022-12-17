@@ -1,0 +1,6 @@
+<h1>Index Produtos</h1>
+
+<% @products.each do |produto| %>
+  <%= cl_image_tag produto.foto.key, height: 300, width: 300, crop: :fill %>
+  <h2><%= produto.nome %></h2>
+<% end %>

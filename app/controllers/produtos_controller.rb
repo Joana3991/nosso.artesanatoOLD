@@ -1,5 +1,9 @@
 class ProdutosController < ApplicationController
 
+  def index
+    @products = Produto.all
+  end
+
   def new
     @produto = Produto.new
   end
