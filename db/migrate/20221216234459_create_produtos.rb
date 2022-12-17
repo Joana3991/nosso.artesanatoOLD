@@ -6,6 +6,7 @@ class CreateProdutos < ActiveRecord::Migration[7.0]
       t.text :descricao
       t.string :tamanho
       t.boolean :disponivel
+      t.string :url_foto
 
       t.timestamps
     end

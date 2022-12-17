@@ -17,6 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_16_234459) do
     t.text "descricao"
     t.string "tamanho"
     t.boolean "disponivel"
+    t.string "url_foto"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
