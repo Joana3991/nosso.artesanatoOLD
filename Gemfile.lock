@@ -107,6 +107,8 @@ GEM
       railties (>= 3.2)
     erubi (1.11.0)
     ffi (1.15.5)
+    font-awesome-sass (6.2.1)
+      sassc (~> 2.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
     http-accept (1.7.0)
@@ -257,6 +259,7 @@ DEPENDENCIES
   cloudinary
   debug
   dotenv-rails
+  font-awesome-sass (~> 6.1)
   importmap-rails
   jbuilder
   puma (~> 5.0)
