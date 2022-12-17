@@ -6,7 +6,7 @@
   <%= f.input :descricao %>
   <%= f.input :tamanho, collection: %i[S M L] %>
   <%= f.input :disponivel %>
-  <%= f.input :url_foto %>
+  <%= f.input :foto, as: :file %>
 
   <%= f.submit %>
 <% end %>
