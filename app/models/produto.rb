@@ -1,6 +1,6 @@
 class Produto < ApplicationRecord
-  validates :nome, presence: true
-  validates :nome, uniquenesse: true
-  validates :tamanho, inclusion: { in: %w[S M L], message: "%{value} is not a valid size" }
-  validates :categoria, inclusion: { in: %w[bandeja caixa miniatura outros] }
+  validates :nome, :categoria, presence: true
+  validates :nome, uniqueness: true
+  validates :tamanho, inclusion: { in: %w[S M L], message: "deve ser P, M ou G" }
+  # validates :categoria, inclusion: { in: %w[bandeja caixa miniatura outros] }
 end

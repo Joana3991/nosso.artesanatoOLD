@@ -6,15 +6,11 @@ class ProdutosController < ApplicationController
 
   def create
     @produto = Produto.new(produtos_params)
-    @produto.save
-    redirect_to produto_path(@produto)
-  end
-
-  def edit
-  end
-
-  def update
-
+    if @produto.save
+      redirect_to produto_path(@produto)
+    else
+      render :new, status: :unprocessable_entity
+    end
   end
 
   def show

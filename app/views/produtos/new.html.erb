@@ -2,9 +2,9 @@
 
 <%= simple_form_for @produto do |f| %>
   <%= f.input :nome %>
-  <%= f.input :categoria %>
+  <%= f.input :categoria, collection: %i[bandeja caixa miniatura outros] %>
   <%= f.input :descricao %>
-  <%= f.input :tamanho %>
+  <%= f.input :tamanho, collection: %i[S M L] %>
   <%= f.input :disponivel %>
   <%= f.input :url_foto %>
 
