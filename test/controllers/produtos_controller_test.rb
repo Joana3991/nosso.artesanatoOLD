@@ -1,18 +1,18 @@
 require "test_helper"
 
-class ProductsControllerTest < ActionDispatch::IntegrationTest
+class ProdutosControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get products_new_url
+    get produtos_new_url
     assert_response :success
   end
 
   test "should get edit" do
-    get products_edit_url
+    get produtos_edit_url
     assert_response :success
   end
 
   test "should get show" do
-    get products_show_url
+    get produtos_show_url
     assert_response :success
   end
 end

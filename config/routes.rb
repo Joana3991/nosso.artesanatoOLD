@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'products/new'
-  get 'products/edit'
-  get 'products/show'
+  get 'produtos/new'
+  get 'produtos/edit'
+  get 'produtos/show'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
   root 'pages#home'
 
+  resources :produtos, only: %i[new create edit update show]
 end

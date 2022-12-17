@@ -1,0 +1,12 @@
+<h1>Produtos new</h1>
+
+<%= simple_form_for @produto do |f| %>
+  <%= f.input :nome %>
+  <%= f.input :categoria %>
+  <%= f.input :descricao %>
+  <%= f.input :tamanho %>
+  <%= f.input :disponivel %>
+  <%= f.input :url_foto %>
+
+  <%= f.submit %>
+<% end %>

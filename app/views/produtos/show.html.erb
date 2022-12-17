@@ -1,0 +1,7 @@
+<h1>Produtos show</h1>
+
+<div class="produto">
+  <%= image_tag @produto.url_foto, alt: "foto do produto", width: 300 %>
+  <p><%= @produto.nome %></p>
+  <p><%= @produto.tamanho %></p>
+</div>
