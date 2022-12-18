@@ -3,7 +3,6 @@
   height: 10vh;
   display: flex;
   justify-content: center;
-  color: $grey;
 }
 
 .left, .right{
@@ -30,6 +29,7 @@
   position: absolute;
   bottom: 0px;
   right: 50px;
+  text-decoration: none !important;
   .menu-item{
     border-right: 2px solid $grey;
     padding: 0 15px;
@@ -39,3 +39,9 @@
   }
 
 }
+
+// a:-webkit-any-link {
+//   color: $grey;
+//   cursor: pointer;
+//   text-decoration: none;
+// }
