@@ -1,7 +1,15 @@
-.buttom{
-  padding: 20px;
-  height: 30px;
-  background-color: rgba(161, 144, 144, 0.5);
-  border: 2px solid rgba(161, 144, 144, 1);
+.buttom {
+  color: #4A4A4A;
+  border: 2px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
   text-decoration: none;
+}
+
+.buttom :hover {
+  color: black;
+  border: 2px solid black;
 }
