@@ -3,6 +3,7 @@
   height: 10vh;
   display: flex;
   justify-content: center;
+  color: $grey;
 }
 
 .left, .right{
@@ -40,8 +41,9 @@
 
 }
 
-// a:-webkit-any-link {
-//   color: $grey;
-//   cursor: pointer;
-//   text-decoration: none;
-// }
+a:-webkit-any-link {
+  color: $grey;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+}

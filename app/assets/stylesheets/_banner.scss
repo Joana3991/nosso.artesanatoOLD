@@ -16,10 +16,16 @@
   left: -15px;
   width: 50%;
   height: 95%;
-  background-image: url(bandejapreta.JPG);
   // transform: scale(0.8);
-  background-size: 100%;
   background-position: 25% 75%;
+  .photo{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(bandejapreta.JPG);
+    background-size: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 
 .banner-text {
@@ -34,6 +40,8 @@
   h1{
     font-family: $h1_font;
     font-size: 52px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
+
   }
   p{
     font-family: $p_banner;
