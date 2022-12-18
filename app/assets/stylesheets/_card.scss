@@ -1,3 +1,8 @@
+.produtos-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card-produto {
   overflow: hidden;
   // background: white;
@@ -5,6 +10,7 @@
   height: 375px;
   width: 300px;
   border-radius: 5px;
+  margin: 12px;
 }
 
 .produto-img {
