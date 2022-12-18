@@ -1,0 +1,37 @@
+@import 'buttom';
+
+.banner {
+  // background-color: pink;
+  height: 80vh;
+  width: 98%;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  border-bottom: 2.5px solid rgba(146, 140, 140, 0.5);
+  // margin-top: 20px;
+  // background-image: url("bandejapreta.JPG");
+  // background-size: cover;
+  // background-position: 10%;
+  // /* filter: blur(2px); */
+  display: flex;
+  align-items: center;
+  // // flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.photos, .banner-text{
+  height: 95%;
+}
+
+.photos{
+  background-image: url(bandejapreta.JPG);
+  background-size: 90%;
+  background-position: 25% 75%;
+  width: 55%;
+
+}
+.banner-text {
+  background-color: yellow;
+  width: 35%;
+  display: flex;
+
+}

@@ -1,5 +1,7 @@
 @import 'font-awesome';
 @import 'navbar';
+@import 'banner';
+
 
 
 
@@ -7,20 +9,4 @@ body {
   /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("madeira.jpg"); */
   height: 300vh;
 
-}
- .banner {
-  margin-top: 20px;
-  background-image: url("bandejapreta.JPG");
-  background-size: cover;
-  background-position: 10%;
-  /* filter: blur(2px); */
-  height: 80vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-h1{
-  backdrop-filter: blur(5px);
 }
