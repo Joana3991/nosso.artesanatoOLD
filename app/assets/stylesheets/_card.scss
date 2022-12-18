@@ -1,34 +1,33 @@
 .card-produto {
   overflow: hidden;
-  background: white;
+  // background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  height: 300px;
-  width: 200px;
+  height: 375px;
+  width: 300px;
+  border-radius: 5px;
 }
 
-.card-produto > img {
-  height: 200px;
+.produto-img {
+  height: 300px;
   width: 100%;
   object-fit: cover;
 }
 
-.card-produto h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-produto p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-produto .card-infos {
+.card-infos {
   padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  position: relative;
+  font-family: $p_banner;
+
+  .produto-name {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0;
+  }
+
+  .favorite-icon{
+    cursor: pointer;
+    font-size: 18px;
+  }
 }
