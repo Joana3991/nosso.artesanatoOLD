@@ -33,5 +33,8 @@
   background-color: yellow;
   width: 35%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $h1_font;
 
 }
