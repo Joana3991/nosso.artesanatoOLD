@@ -1,0 +1,9 @@
+<div class="card-produto">
+  <%= cl_image_tag produto.foto.key, height: 300, width: 300, crop: :fill %>
+  <div class="card-infos">
+    <div>
+    <h2><%= produto.nome %></h2>
+    </div>
+    <h2 class="card-trip-pricing">£99.99</h2>
+  </div>
+</div>
