@@ -1,9 +1,9 @@
 @import 'config/color&fonts';
 @import 'font-awesome';
-@import 'navbar';
-@import 'banner';
-@import 'about';
-@import 'card';
+@import 'components/navbar';
+@import 'components/banner';
+@import 'components/about';
+@import 'components/card';
 // @import 'index';
 
 
@@ -14,6 +14,5 @@
 
 
 body {
-  /* background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("madeira.jpg"); */
   height: 300vh;
 }
