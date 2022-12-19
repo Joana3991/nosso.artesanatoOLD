@@ -8,11 +8,16 @@
 
 
 
-
-
-
-
-
 body {
   height: 300vh;
+}
+
+// a{
+
+// }
+a:-webkit-any-link {
+  color: $grey;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
 }

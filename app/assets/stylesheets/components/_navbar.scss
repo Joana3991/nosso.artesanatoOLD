@@ -33,19 +33,20 @@
   bottom: 0px;
   right: 50px;
   text-decoration: none !important;
-  .menu-item{
+  .menu-item {
     border-right: 2px solid $grey;
     padding: 0 15px;
+    margin-bottom: 1rem;
   }
   .menu-item-last {
     padding-left: 15px;
   }
-
-}
-
-a:-webkit-any-link {
-  color: $grey;
-  cursor: pointer;
-  text-decoration: none;
-  display: block;
+  .menu-item:hover{
+    color: $grey;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  .menu-item-last:hover{
+    color: $grey;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
 }
