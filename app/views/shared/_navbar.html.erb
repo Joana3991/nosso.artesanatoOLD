@@ -6,7 +6,10 @@
     <div class="menu">
       <%= link_to "HOME", root_path, class:"menu-item" %>
       <%= link_to "ABOUT", about_path, class:"menu-item" %>
-      <%= link_to "PRODUTOS", produtos_path, class:"menu-item-last" %>
+      <%= link_to "PRODUTOS", produtos_path, class:"menu-item" %>
+      <%= link_to produtos_path, class:"menu-item-last" do %>
+        <i class="fa-solid fa-user"></i>
+      <% end %>
     </div>
   </div>
 </section>
