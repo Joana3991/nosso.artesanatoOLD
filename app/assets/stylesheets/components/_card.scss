@@ -11,6 +11,9 @@
   width: 300px;
   border-radius: 5px;
   margin: 12px;
+  &:hover{
+    scale: 1.05;
+  }
 }
 
 .produto-img {
