@@ -1,0 +1,14 @@
+.form{
+  color: $grey;
+  font-family: $logo_font;
+}
+
+.session-form{
+  width: 400px;
+  margin: 8vh auto;
+  h2{
+    margin-bottom: 4vh;
+    font-size: 30px;
+    text-align: center;
+  }
+}
