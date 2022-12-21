@@ -1,7 +1,6 @@
-<h1>Produtos show</h1>
-
-<div class="produto">
-  <%= cl_image_tag @produto.foto.key, height: 300, width: 300, crop: :fill %>
-  <p><%= @produto.nome %></p>
-  <p><%= @produto.tamanho %></p>
+<div class="produto-container">
+  <div class="produto">
+    <h2><%= @produto.nome %></h2>
+    <%= cl_image_tag @produto.foto.key, height: 300, width: 300, crop: :fill %>
+  </div>
 </div>

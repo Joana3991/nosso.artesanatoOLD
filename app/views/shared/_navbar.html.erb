@@ -7,8 +7,14 @@
       <%= link_to "HOME", root_path, class:"menu-item" %>
       <%= link_to "ABOUT", about_path, class:"menu-item" %>
       <%= link_to "PRODUTOS", produtos_path, class:"menu-item" %>
-      <%= link_to new_user_session_path, class:"menu-item-last" do %>
-        <i class="fa-solid fa-user"></i>
+      <% if user_signed_in? %>
+        <%= link_to '#', class:"menu-item-last" do %>
+          <i class="fa-solid fa-user"></i>
+        <% end %>
+      <% else %>
+        <%= link_to new_user_session_path, class:"menu-item-last" do %>
+          <i class="fa-solid fa-user"></i>
+        <% end %>
       <% end %>
       <%# <%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete}, class: "dropdown-item" %>
     </div>
