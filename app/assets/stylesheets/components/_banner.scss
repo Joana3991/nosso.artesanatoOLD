@@ -29,7 +29,7 @@
 }
 
 .banner-text {
-  // background-color: yellow;
+  padding-left: 7%;
   border-left: 2.5px solid rgba(146, 140, 140, 0.5);
   width: 35%;
   height: 95%;
@@ -41,7 +41,6 @@
     font-family: $h1_font;
     font-size: 52px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.19);
-
   }
   p{
     font-family: $p_banner;
@@ -58,5 +57,4 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
