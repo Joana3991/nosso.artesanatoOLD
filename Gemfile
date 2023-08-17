@@ -53,6 +53,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 6.0.0'
+  # gem 'rubocop' -- habilitar depois pra ver a diferença
 end
 
 group :development do
